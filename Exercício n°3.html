@@ -1,0 +1,24 @@
+<html lang = "pt-br">
+<body>
+    <meta  charset = "UTF-8">
+    <meta  http-equiv = " X-UA-Compatible " content = " IE = edge ">
+    <meta  name = " viewport " content = " width = device-width, initial-scale = 1.0 ">
+   
+    <br>
+    <script>
+        var n = [];
+        for(var i = 0; i < 3 ;i++){
+            n[i] = parseInt(prompt(`Insira o ${i + 1}° Número`));
+        }
+        
+        maior = n[0];
+        for(var i = 0; i < n.length; i++){
+            if(n[i] > maior){
+                maior = n[i]
+            }
+        }
+
+        document.write(`O maior número entre os escolhidos é: <strong>${maior}</strong>`);
+    </script>
+</body>
+</html>
