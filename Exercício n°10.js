@@ -1,0 +1,8 @@
+var maximo = parseInt(prompt("Informe o ultímo número da contagem"))
+    
+for(var i = 1; i <= maximo; i++){
+    document.write(`
+    ${i}
+    <br>
+    `);
+}
